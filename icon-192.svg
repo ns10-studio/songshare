@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#0f3460"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e94560"/>
+      <stop offset="100%" style="stop-color:#ff6b6b"/>
+    </linearGradient>
+  </defs>
+  <rect width="192" height="192" rx="40" fill="url(#bg)"/>
+  <g transform="translate(96, 96)">
+    <!-- Music note -->
+    <ellipse cx="-20" cy="30" rx="18" ry="14" fill="url(#accent)"/>
+    <ellipse cx="25" cy="20" rx="18" ry="14" fill="url(#accent)"/>
+    <rect x="-4" y="-50" width="8" height="80" fill="url(#accent)"/>
+    <rect x="41" y="-60" width="8" height="80" fill="url(#accent)"/>
+    <rect x="-4" y="-58" width="53" height="10" fill="url(#accent)"/>
+    <!-- Share arrows -->
+    <g fill="rgba(255,255,255,0.3)">
+      <path d="M-55,-20 L-70,-5 L-55,10 L-55,2 L-35,2 L-35,-12 L-55,-12 Z"/>
+      <path d="M55,-20 L70,-5 L55,10 L55,2 L35,2 L35,-12 L55,-12 Z" transform="scale(-1,1)"/>
+    </g>
+  </g>
+</svg>
